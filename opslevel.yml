@@ -5,7 +5,7 @@ service:
   lifecycle:
   tier:
   product:
-  owner: 
+  owner: my-owner
   system:
   language:
   framework:
