@@ -1,0 +1,24 @@
+---
+version: 1
+service:
+  name: Demo Wiki Service
+  lifecycle:
+  tier:
+  product:
+  owner: my-owner
+  system:
+  language:
+  framework:
+  description:
+  aliases:
+  tags:
+  repositories:
+  - name: ma-pple/demo-wiki
+    path: "/"
+    provider: github
+  - name: ma-pple/Music-Catalogue
+    path: "/dummy-path"
+    provider: github
+  tools:
+  dependencies:
+  alert_sources:
