@@ -5,7 +5,7 @@ service:
   lifecycle:
   tier:
   product:
-  owner: my-owner
+  owner:
   system:
   language:
   framework:
@@ -13,12 +13,15 @@ service:
   aliases:
   tags:
   repositories:
-  - name: ma-pple/demo-wiki
-    path: "/"
-    provider: github
   - name: ma-pple/Music-Catalogue
     path: "/dummy-path"
+    provider: github
+  - name: ma-pple/demo-wiki
+    path: "/"
     provider: github
   tools:
   dependencies:
   alert_sources:
+  properties:
+    issue_count: 5
+
